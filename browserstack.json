@@ -1,0 +1,61 @@
+{
+    "auth": {
+        "username": "$BROWSERSTACK_USERNAME",
+        "access_key": "$BROWSERSTACK_ACCESS_KEY"
+    },
+    "browsers": [
+        {
+            "browser": "chrome",
+            "os": "Windows 10",
+            "versions": [
+                "latest-2"
+            ]
+        },
+        {
+            "browser": "firefox",
+            "os": "Windows 10",
+            "versions": [
+                "latest"
+            ]
+        },
+        {
+            "browser": "edge",
+            "os": "Windows 10",
+            "versions": [
+                "latest-1"
+            ]
+        },
+        {
+            "browser": "chrome",
+            "os": "OS X Catalina",
+            "versions": [
+                "latest-2"
+            ]
+        },
+        {
+            "browser": "chrome",
+            "os": "OS X Big Sur",
+            "versions": [
+                "latest"
+            ]
+        }
+    ],
+    "run_settings": {
+        "cypress_version": "7.latest",
+        "cypress_config_file": "cypress.json",
+        "project_name": "JLP Webinar",
+        "build_name": "Cypress Sample",
+        "exclude": [],
+        "parallels": "5",
+        "npm_dependencies": {},
+        "package_config_options": {},
+        "headless": true
+    },
+    "connection_settings": {
+        "local": false,
+        "local_identifier": null,
+        "local_mode": null,
+        "local_config_file": null
+    },
+    "disable_usage_reporting": false
+}
